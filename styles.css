@@ -1,0 +1,49 @@
+body {
+  background-color: #f9f2ed;
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  color: #e2dbdb;
+  text-transform: uppercase;
+  background-color: orangered;
+  border: none;
+  border-radius: 300px;
+  padding: 1rem 2rem;
+  text-align: center;
+  margin: 15px;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  filter: brightness(85%);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  cursor: default;
+  filter: brightness(30%);
+}
+
+.meme-img {
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.meme-container {
+  text-align: center;
+}
